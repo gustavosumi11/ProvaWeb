@@ -3,10 +3,12 @@ body{
 }
 h1{
 font-size:26px;
-    text-indent:15px;
-
-	
+    text-indent:15px;	
 }
+h3{
+    text-align: center;
+}
+
 #servicos{
 	background:green;
 	color: white;
@@ -15,20 +17,31 @@ font-size:26px;
 
 }
 IMG.displayed {
+    
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto 
 
+}
+
+#container
+{
+max-width: 100%;
+width: 905px;
+height: 395px;
+object-fit: cover;
+}
   
 #corpo{
 	 margin:10;height:1000px;width:97%; padding:10px; background:white;
 }
 #logo{
-	margin:0; height:100px; width:100%; padding:1px; 
+	margin:0; height:100px; width:768; padding:1px; ;
 }
 #contato{
-	background-color: green;
-	color:white;
+	background-color:whitesmoke;
+	text-align: center;
+	color: #03BB85;
 }
 figure.foto-legenda
 {
@@ -45,7 +58,7 @@ figure.foto-legenda
 #menu{
 	margin:0;
 	padding: 0;
-	background: green;
+	background: #03BB85;
 
 }
 #menu ul{
