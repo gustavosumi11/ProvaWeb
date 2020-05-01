@@ -1,0 +1,83 @@
+body{
+	font-family:"Tahoma";
+}
+h1{
+font-size:26px;
+    text-indent:15px;
+
+	
+}
+#servicos{
+	background:green;
+	color: white;
+	box-shadow: 1px 1px 4px green;
+
+
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+  
+#corpo{
+	 margin:10;height:1000px;width:97%; padding:10px; background:white;
+}
+#logo{
+	margin:0; height:100px; width:100%; padding:1px; 
+}
+#contato{
+	background-color: green;
+	color:white;
+}
+figure.foto-legenda
+{
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+	
+}
+#cabeçalho{
+    margin:0; height:100px; padding:10px; 
+    background:white;
+    text-align: center;
+}
+
+#menu{
+	margin:0;
+	padding: 0;
+	background: green;
+
+}
+#menu ul{
+	margin: 0;
+	
+	list-style: none;
+}
+#menu ul li{
+	display: inline;
+}
+#menu ul li a{
+	padding: 10px 45px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+#partelogo
+{
+	width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 50px;
+}
+.top_div{
+	position:absolute;
+	width:100%;
+	height:80px;
+	background-color:#FF0000;
+}
+p{
+	text-indent:100px;
+}
